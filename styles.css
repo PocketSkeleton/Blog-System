@@ -101,3 +101,8 @@ html, body {
     align-items: end;
     justify-content: end;
 }
+
+.blogPage {
+    overflow-y: scroll;
+    height: 100%;
+}
