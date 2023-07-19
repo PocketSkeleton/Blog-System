@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="viewport" content="width=device-width">
         <title>Blog System</title>
         <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet"/>
     </head>
     <body>
-        
+        <button id="create">Create Blog</button>
+        <div class="container" id="createBox"> 
+            <div class="abc">
+                <h2>Create a blog post</h2>
+            </div>
+            <form id="form">
+                <input class="title" id='title' name="blogName" type="text" placeholder="Title" required>
+                <textarea type="textarea" placeholder="Blog Content" id="blogContent" class="blogContent" required></textarea>
+                <div class="buttons">
+                    <input type="button" id="closeButton" class="button" value="Close">
+                    <input type="submit" id="postButton" class="button" value="Post">
+                </div>
+            </form>
+        </div>
+        <script src="script.js"></script>
     </body>
 </html>
