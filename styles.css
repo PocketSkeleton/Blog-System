@@ -5,8 +5,13 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.create {
-    cursor:cell;
+#create {
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #a270f7;
+    height: 2em;
+    border-radius: 10px;
+    font-size: 1em;
 }
 
 .container {
@@ -105,4 +110,55 @@ html, body {
 .blogPage {
     overflow-y: scroll;
     height: 100%;
+    margin-top: 0.67em;
+}
+
+.blog {
+    
+    border: 1px solid orange;
+    
+    border-radius: 60px;
+    
+    padding-left: 40px;
+    
+    padding-right: 40px;
+    
+    margin: 10px 10px;
+}
+
+.blogTitle {
+
+    font-size: 1.5em;
+
+    font-weight: normal;
+
+    margin-bottom: 0;
+}
+
+.blogBody {
+    
+}
+
+.blogAuthor {
+    margin: 0.5em 0;
+    color: #00838f;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: #00838f;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 0.67em;
+    border-bottom: 2px solid orange;
+    margin-bottom: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
