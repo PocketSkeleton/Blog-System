@@ -12,6 +12,7 @@ html, body {
     height: 2em;
     border-radius: 10px;
     font-size: 1em;
+    transition: 0.2s;
 }
 
 .container {
@@ -161,4 +162,11 @@ a {
 body {
     display: flex;
     flex-direction: column;
+}
+
+#create:hover {
+    background: #dfdfdf;
+    height: 2.1em;
+    font-size: 1.1em;
+    margin-top: -0.281em;
 }
