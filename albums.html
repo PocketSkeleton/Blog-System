@@ -13,11 +13,9 @@
             <a href="index.html"><h2>Blogs</h2></a>
             <a href="albums.html"><h2>Albums</h2></a>
         </div>
-        <button id="create">Create Your Own Blog</button>
+        <button id="create">Post Your Own Photo</button>
         </div>
-        <div id="blogPage" class="blogPage">
-            <div id="blogs">
-            </div>
+        <div id="albumPage" style="display: flex; flex-direction: column;; align-items: center;">
         </div>
         <div class="container" id="createBox"> 
             <div class="abc">
@@ -25,14 +23,13 @@
             </div>
             <form id="form">
                 <input class="title" id='title' name="blogName" type="text" placeholder="Title" required>
-                <textarea type="textarea" placeholder="Blog Content" id="blogContent" class="blogContent" required></textarea>
+                <input class="imgUrl" id="imgUrl" type="url" placeholder="Please Enter a Url">
                 <div class="buttons">
                     <input type="button" id="closeButton" class="button" value="Close">
                     <input type="submit" id="postButton" class="button" value="Post">
                 </div>
             </form>
         </div>
-        
-        <script src="script.js"></script>
+        <script src="albums.js"></script>
     </body>
 </html>
